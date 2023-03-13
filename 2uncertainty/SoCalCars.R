@@ -15,7 +15,7 @@ dim(Cars) # output will be number of rows then number of columns
 
 # View the unconditional mean of the price of car listings
 mean(Cars$price)
-# Compute the variance of the mean price for cars listed for sale, we use na.rm=TRUE here as well
+# Compute the variance of the mean price for cars listed for sale
 var(Cars$price)/nrow(Cars)
 # and the standard error (square root of the variance)
 sd(Cars$price)/sqrt(nrow(Cars))
